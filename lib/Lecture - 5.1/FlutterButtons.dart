@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Buttons(),
     );
@@ -81,6 +81,7 @@ class _ButtonsState extends State<Buttons> {
             ),
           ),
           Container(
+            height: 100,
             width: 360,
             decoration: BoxDecoration(
                 border: Border.all(color: Colors.black),
@@ -97,10 +98,15 @@ class _ButtonsState extends State<Buttons> {
                 }, child: Icon(Icons.add)),
                 FilledButton(onPressed: () {
 
-                }, child: Icon(Icons.add)),
+                }, child: Row(
+                  children: [
+                    Icon(Icons.add),
+                    Text("Create")
+                  ],
+                )),
                 OutlinedButton(onPressed: () {
 
-                }, child:  Icon(Icons.add)),
+                }, child:  Icon(Icons.add,size: 60,)),
               ],
             ),
           ),
