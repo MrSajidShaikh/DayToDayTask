@@ -4,6 +4,12 @@ A new Flutter project.
 
 ## Getting Started
 
+
+# What is  Asynchronous Programming?
+
+Asynchronous programing is programing paradigm that allows tasks or operations to run independently and concurrently,without waiting for each other to complete before moving on the next task.
+
+
 <h3 align="center"> 1. Flutter Buttons </h3>
 
 ###
