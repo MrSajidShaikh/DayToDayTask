@@ -16,5 +16,5 @@ A new Flutter project.
 
 ###
 <div align="center">
-<a href="https://github.com/mrsajidshaikh/DayToDayTask/blob/master/lib/Lecture%20-%205.1/FlutterButtons.dart">-> 📂 Go To Dart File 📂 <-</a>
+<a href="https://github.com/mrsajidshaikh/DayToDayTask/blob/master/lib/Lecture%20-%205.1/FlutterButtons.dart">-> 📂 Go To File 📂 <-</a>
 </div>
