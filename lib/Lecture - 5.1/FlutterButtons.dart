@@ -98,7 +98,7 @@ class _ButtonsState extends State<Buttons> {
                 }, child: Icon(Icons.add)),
                 FilledButton(onPressed: () {
 
-                }, child: Row(
+                }, child: const Row(
                   children: [
                     Icon(Icons.add),
                     Text("Create")
