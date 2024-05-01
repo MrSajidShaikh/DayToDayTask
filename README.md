@@ -1,3 +1,37 @@
+<h3 align="center"> 1. Flutter Buttons </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src = "https://github.com/mrsajidshaikh/DayToDayTask/assets/149478269/14f97783-638b-4d01-84fb-6bf7c8f44f0d" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/mrsajidshaikh/DayToDayTask/blob/master/lib/Lecture%20-%205.1/FlutterButtons.dart">-> 📂 Go To File 📂 <-</a>
+</div>
+
+#
+
+<h3 align="center"> 1. Digital Clock </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src = "https://github.com/mrsajidshaikh/DayToDayTask/assets/149478269/edcefcc5-05a3-4de7-87f6-65b7feb8e06c" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/mrsajidshaikh/DayToDayTask/blob/master/lib/Lecture%20%20-%205.3/DigitalClock.dart">-> 📂 Go To File 📂 <-</a>
+</div>
+
+#
+
 <h1><div align="center"> Asynchronous Programming </div></h1>
 
 <br><br>
@@ -117,20 +151,3 @@ class _PeriodicTimerWidgetState extends State<PeriodicTimerWidget> {
   }
 }
 ```
-
-#
-
-<h3 align="center"> 1. Flutter Buttons </h3>
-
-###
-
-<h1 align="left"></h1>
-
-###
-<div align="center">
-<img src = "https://github.com/mrsajidshaikh/DayToDayTask/assets/149478269/14f97783-638b-4d01-84fb-6bf7c8f44f0d" width = 22% height = 35%>
-
-###
-<div align="center">
-<a href="https://github.com/mrsajidshaikh/DayToDayTask/blob/master/lib/Lecture%20-%205.1/FlutterButtons.dart">-> 📂 Go To File 📂 <-</a>
-</div>
