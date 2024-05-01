@@ -15,7 +15,7 @@
 
 #
 
-<h3 align="center"> 1. Digital Clock </h3>
+<h3 align="center"> 2. Digital Clock </h3>
 
 ###
 
