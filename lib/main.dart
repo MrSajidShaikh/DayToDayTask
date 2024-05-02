@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:math';
 import 'package:clockapp/Global.dart';
 import 'package:flutter/material.dart';
 
@@ -68,19 +69,86 @@ class _DigitalClockState extends State<DigitalClock> {
           width: double.infinity,
           decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage("assets/Images/itachi.jpg"), fit: BoxFit.fill),
+                image: AssetImage("assets/Images/sukuna.jpg"), fit: BoxFit.fill),
           ),
           child: Transform.translate(
               offset: const Offset(10, 100),
               child: Column(
                 children: [
-                  Text(
-                    '${dateTime.hour}:${dateTime.minute}:${dateTime.second} $amPm',
-                    style: const TextStyle(color: Colors.white, fontSize: 25),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        '${dateTime.hour}:${dateTime.minute}:${dateTime.second} ',
+                        style: const TextStyle(color: Colors.white, fontSize: 25),
+                      ),
+                      Text(
+                        amPm,
+                        style: const TextStyle(color: Colors.white, fontSize: 15),
+                      ),
+                    ],
                   ),
                   Text(
                     '${dateTime.month}  $day',
-                    style: const TextStyle(color: Colors.white, fontSize: 20),
+                    style: const TextStyle(color: Colors.white, fontSize: 15),
+                  ),
+                  const SizedBox(height: 25,),
+                  Container(
+                    height: 200,
+                    width: 200,
+                    decoration: BoxDecoration(
+                        border: Border.all(color: Colors.white,width: 3),
+                        shape: BoxShape.circle
+                    ),
+                    child: Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        ...List.generate(60, (index) => Transform.rotate(angle: ((index+1) * 6 * pi)/180,
+                          child: ((index + 1) % 5 == 0) ? const VerticalDivider(
+                            thickness: 5,
+                            color: Colors.red,
+                            indent: 0,
+                            endIndent: 170,
+                          ) : const VerticalDivider(
+                            thickness: 3,
+                            color: Colors.white,
+                            indent: 0,
+                            endIndent: 180,
+                          )
+                        )),
+                        Transform.rotate(angle: (dateTime.hour % 12 + dateTime.minute/60) * 30 * pi/180,
+                          child: const VerticalDivider(
+                            thickness: 5,
+                            color: Colors.red,
+                            indent: 60,
+                            endIndent:80,
+                          ),
+                        ),
+                        Container(
+                          height: 10,
+                          width: 10,
+                          decoration: const BoxDecoration(
+                            shape: BoxShape.circle,color: Colors.white
+                          ),
+                        ),
+                        Transform.rotate(angle: (dateTime.second * 6 * pi)/180,
+                          child: const VerticalDivider(
+                            thickness: 2,
+                            color: Colors.white,
+                            indent: 35,
+                            endIndent:80,
+                          ),
+                        ),
+                        Transform.rotate(angle: (dateTime.minute * 6 * pi)/180,
+                          child: const VerticalDivider(
+                            thickness: 3,
+                            color: Colors.white,
+                            indent: 50,
+                            endIndent:80,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               )),
