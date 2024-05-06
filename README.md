@@ -46,12 +46,45 @@
 <a href="https://github.com/mrsajidshaikh/DayToDayTask/blob/master/lib/Lecture%20%20-%205.3/DigitalClock.dart">-> 📂 Go To Dart File 📂 <-</a>
 </div>
 
-<h3 align="center"> 4. Dual Clock </h3>
+
+
+###
+
+<h3 align="center"> 4. Strap Watch </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src = "https://github.com/mrsajidshaikh/DayToDayTask/assets/149478269/dffc4b4d-5364-4c1c-a59a-c6800b9d0e1c" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/mrsajidshaikh/DayToDayTask/blob/master/lib/Lecture%20%20-%205.3/StrapWatch.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+
+#
+
+<h3 align="center"> 5. Dual Clock </h3>
 
 ###
 
 <div align="center">
 <video src = "https://github.com/mrsajidshaikh/DayToDayTask/assets/149478269/80db749f-72d9-4a38-8e9e-fa65da3af807">
+
+###
+
+#
+
+<h3 align="center"> 6. Clock App </h3>
+
+###
+
+<div align="center">
+<video src = "https://github.com/mrsajidshaikh/DayToDayTask/assets/149478269/299434c0-3a70-4d85-90cd-bc1a221c7e1d ">
 
 ###
 
