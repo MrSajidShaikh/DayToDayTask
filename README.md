@@ -75,6 +75,8 @@
 <div align="center">
 <video src = "https://github.com/mrsajidshaikh/DayToDayTask/assets/149478269/80db749f-72d9-4a38-8e9e-fa65da3af807">
 
+</div>
+
 ###
 
 #
@@ -85,6 +87,8 @@
 
 <div align="center">
 <video src = "https://github.com/mrsajidshaikh/DayToDayTask/assets/149478269/299434c0-3a70-4d85-90cd-bc1a221c7e1d ">
+
+</div>
 
 ###
 
