@@ -29,7 +29,33 @@
 <div align="center">
 <a href="https://github.com/mrsajidshaikh/DayToDayTask/blob/master/lib/Lecture%20%20-%205.3/DigitalClock.dart">-> 📂 Go To File 📂 <-</a>
 </div>
+#
 
+<h3 align="center"> 3. Dual Clock </h3>
+
+###
+
+<h1 align="left"></h1>
+
+###
+<div align="center">
+<img src = "https://github.com/mrsajidshaikh/DayToDayTask/assets/149478269/3899ba37-5c41-46e2-86f6-af7fc48f20fa" width = 22% height = 35%>
+
+###
+<div align="center">
+<a href="https://github.com/mrsajidshaikh/DayToDayTask/blob/master/lib/Lecture%20%20-%205.3/DigitalClock.dart">-> 📂 Go To Dart File 📂 <-</a>
+</div>
+
+<h3 align="center"> 4. Dual Clock </h3>
+
+###
+
+<div align="center">
+<video src = "https://github.com/mrsajidshaikh/DayToDayTask/assets/149478269/80db749f-72d9-4a38-8e9e-fa65da3af807">
+
+###
+
+  
 #
 
 <h1><div align="center"> Asynchronous Programming </div></h1>
